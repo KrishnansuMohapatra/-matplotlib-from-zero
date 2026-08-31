@@ -1,19 +1,23 @@
+import numpy as np
 import matplotlib.pyplot as plt
 
-# Basic Matplotlib Practice
+# Lesson 2 practice
 
-days = [1, 2, 3, 4, 5]
-sales = [100, 150, 120, 200, 180]
+days = np.array([1, 2, 3, 4, 5])
+sales = np.array([100, 150, 120, 200, 180])
 
-# 1. Create a line plot
-plt.plot(days, sales)
+# Create a line chart
+plt.plot(days, sales, marker="o")
 
-# 2. Add labels
+# Add labels and title
 plt.xlabel("Day")
 plt.ylabel("Sales")
-
-# 3. Add a title
 plt.title("Daily Sales")
 
-# 4. Display the plot
+# Second sales data
+sales_2 = np.array([80, 130, 160, 170, 210])
+
+# Plot the second line
+plt.plot(days, sales_2, marker="x")
+
 plt.show()
