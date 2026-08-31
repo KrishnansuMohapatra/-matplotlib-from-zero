@@ -1,12 +1,19 @@
-# 🧠 Practice Challenge
-#
-# 1. Create a list containing the sales for 5 days:
-#    10, 15, 12, 20, 18
-#
-# 2. Create a line plot using the sales data.
-#
-# 3. Display the plot.
-#
-# 4. Try changing the sales values and observe how the graph changes.
-#
-# Try solving these yourself.
+import matplotlib.pyplot as plt
+
+# Basic Matplotlib Practice
+
+days = [1, 2, 3, 4, 5]
+sales = [100, 150, 120, 200, 180]
+
+# 1. Create a line plot
+plt.plot(days, sales)
+
+# 2. Add labels
+plt.xlabel("Day")
+plt.ylabel("Sales")
+
+# 3. Add a title
+plt.title("Daily Sales")
+
+# 4. Display the plot
+plt.show()
