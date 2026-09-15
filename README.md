@@ -13,10 +13,7 @@ A beginner-friendly Matplotlib learning series focused on turning data into clea
 06 Titles and Labels
 07 Legends
 08 Axes
-09 Subplots
-10 Customizing Visualizations
-11 Visualizing Real Datasets
-12 Using Matplotlib with NumPy and Pandas
+
 ```
 
 ## 🧠 What This Repository Covers
@@ -29,10 +26,7 @@ A beginner-friendly Matplotlib learning series focused on turning data into clea
 - Titles and labels
 - Legends
 - Axes
-- Subplots
-- Customizing visualizations
-- Visualizing real datasets
-- Using Matplotlib with NumPy and Pandas
+
 
 ## 🛠️ Learning Method
 
@@ -50,8 +44,4 @@ The progression is:
 
 The goal is not to memorize every Matplotlib function.
 
-It is to learn how to choose and create visualizations that **help understand data and communicate insights clearly.**
-
-## 🚀 Projects
-
-Projects will be added as the learning series progresses.
+It is to learn how to choose and create visualizations that **help understand data and communicate insights clearly
